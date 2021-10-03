@@ -1,10 +1,28 @@
 form * {
   display: block;
-  width: 80%;
+  width: 20%;
   margin: 1em;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blue;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: large;
+}
+
+label {
+  font-weight: 800;
+  font-family: Tahoma;
 }
 
 #checkbox {
   display:inline;
+}
 
+input[type="submit"] {
+  width: 200px;
 }
